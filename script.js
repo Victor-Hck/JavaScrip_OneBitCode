@@ -3,8 +3,7 @@ let menu;
 let imoveis = [];
 
 do {
-    menu = Number(prompt("Cadastrar imoveis 1)\n2)\n3) Sair"))
-
+    menu = Number(prompt("Cadastrar imoveis 1)\n2)\n3) Sair"));
     switch (menu) {
         case "1":
 
@@ -27,12 +26,12 @@ do {
             for (let i = 0; i < imoveis.length; i++) {
                 alert(`Mostrar Imoveis Cadastrador\nnome: ${imoveis[i].name}\nQuartos: ${imoveis[i].quartos}\nBanheiros: ${imoveis[i].banheiros}\nBanheiros: ${imoveis[i].banheiros}\nGaragem: ${imoveis[i].garagem}`)
             }
-        break;
+            break;
         case "3":
             alert("Programa encerrado com sucesso...")
-        break;
+            break;
         default:
             alert("Opção invalida...")
             break;
     }
-} while (menu !== 3);
+} while (menu !== 3); 
