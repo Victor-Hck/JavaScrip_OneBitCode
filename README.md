@@ -1,1 +1,5 @@
-# JavaScrip_OneBitCode
+# Exercicios_One_Bit_Code
+
+## Nesse reposítorio irei hospedar alguns exercícios
+
+# Concluído ✅:
