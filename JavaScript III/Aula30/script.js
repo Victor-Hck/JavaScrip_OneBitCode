@@ -47,3 +47,4 @@ function removeContact() {
     contactSection.removeChild(contacts[contacts.length - 1])
 
 }
+
