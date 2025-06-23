@@ -21,4 +21,5 @@ document.getElementById('darkBtn').addEventListener('click', useDarkTheme);
 document.getElementById('switchBtn').addEventListener('click', switchTheme);
 
 // Adicionando commit de teste github
+// Testing supremo
 
